@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<style>
+body
+{
+background-color:powderblue;
+background-image:url('img_girl.jpg');
+background-attachement:fixed;
+background-size: cover;
+background-repeat:no-repeat;
+}
+h2 
+{
+    color:orange;
+    text-align:center;
+}
+p
+{
+    text-align:center;
+    text-size:25px;
+}
+</style>
+<body>
+<h2><b>Book a call</b></h2>
+<p>Book a call slot and our representative will call you within one hour of selected time</p>
+<hr>
+<form>
+<label for="name">NAME</label><br>
+<input type="text" id="name" name="name"><br>
+<label for="email">Email</label><br>
+<input type="text" id="email" name="email"><br>
+<label for="contact no">Contact No:</label><br>
+<input type="text" id="contact no" name="contact no:"><br>
+
+<input type="button" value="Get a Call">
+</form>
+</body>
+</html>
